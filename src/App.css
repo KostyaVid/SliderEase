@@ -1,0 +1,26 @@
+header h1 {
+  text-align: center;
+}
+
+.form {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.input input {
+  width: 200px;
+}
+
+.container__swiper {
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-top: 50px;
+}
