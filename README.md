@@ -1,9 +1,9 @@
-# Задача
-Создать слайдер
+# Task
+Create slider
 
-## Требования
-1. Произвольное количество слайдов
+## Requirements
+1. Custom number of slides
 2. Responsive
-3. Пагинация
-4. Навигация
+3. Pagination
+4. Navigation
 5. AutoPlay
