@@ -6,3 +6,4 @@
 2. Responsive
 3. Пагинация
 4. Навигация
+5. AutoPlay
