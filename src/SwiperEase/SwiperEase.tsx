@@ -15,6 +15,8 @@ export const ActiveSlideContext = createContext(0);
 
 /**
  *
+ * Calling elements SwiperEaseSlide inside the component
+ *
  * @param pagination boolean, default true
  * @param navigation boolean, default true
  * @param autoPlay boolean, default false
