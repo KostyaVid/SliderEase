@@ -1,5 +1,5 @@
 # Task
-Create slider
+Create slider on the ReactJS
 
 ## Requirements
 1. Custom number of slides
