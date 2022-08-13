@@ -1,0 +1,8 @@
+.swiperEaseCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  transition: all 0.5s ease;
+  will-change: scroll-position;
+}

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
+import { SwiperEaseSlide } from './SwiperEase';
+import SwiperEase from './SwiperEase/SwiperEase';
 
 function App() {
-  const [size, setSize] = useState([1000, 500]);
+  const [size, setSize] = useState([1500, 500]);
   return (
     <div className="App">
       <header>
@@ -42,7 +44,28 @@ function App() {
           style={{
             width: `${size[0]}px`,
             height: `${size[1]}px`,
-          }}></div>
+          }}>
+          <SwiperEase gap={60} autoPlay={true}>
+            <SwiperEaseSlide>
+              <img src="./Prirodnye-jekosistemy.jpg" alt="nature" />
+            </SwiperEaseSlide>
+            <SwiperEaseSlide>
+              <img src="./Prirodnye-jekosistemy.jpg" alt="nature" />
+            </SwiperEaseSlide>
+            <SwiperEaseSlide>
+              <img src="./Prirodnye-jekosistemy.jpg" alt="nature" />
+            </SwiperEaseSlide>
+            <SwiperEaseSlide>
+              <img src="./Prirodnye-jekosistemy.jpg" alt="nature" />
+            </SwiperEaseSlide>
+            <SwiperEaseSlide>
+              <img src="./Prirodnye-jekosistemy.jpg" alt="nature" />
+            </SwiperEaseSlide>
+            <SwiperEaseSlide>
+              <img src="./Prirodnye-jekosistemy.jpg" alt="nature" />
+            </SwiperEaseSlide>
+          </SwiperEase>
+        </div>
       </main>
     </div>
   );
