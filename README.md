@@ -7,4 +7,3 @@ Create slider on the ReactJS
 3. Pagination
 4. Navigation
 5. AutoPlay
-6. 
